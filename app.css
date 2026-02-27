@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+  letter-spacing: 1px;
+  
+}
+
+.logo {
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+.icons i{
+  font-size:28px;
+  margin-left:20px;
+  cursor:pointer;
+}
+ 
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.hero-text {
+  background: rgba(255,255,255,0.8);
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  padding: 12px 30px;
+  border: none;
+  background: black;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* COLLECTION GRID */
+.collections {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.collections h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* BANNER */
+.banner {
+  background: #f4f4f4;
+  padding: 80px;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 36px;
+}
+
+.banner button {
+  margin-top: 15px;
+  padding: 12px 30px;
+  border: none;
+  background: black;
+  color: white;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  padding: 60px;
+  text-align: center;
+  font-style: italic;
+  font-size: 22px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  padding: 60px;
+}
+
+.footer-cols {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-cols h4 {
+  margin-bottom: 15px;
+}
+
+.footer-cols p {
+  margin-bottom: 8px;
+  color: #bbb;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+}
